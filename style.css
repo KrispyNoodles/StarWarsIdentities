@@ -11,8 +11,8 @@ body {
 h1 {
     color: black;
     font-family: "Star_Jedi";
-    letter-spacing: 2px;
-    line-height: 1;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
 }
 
 p{
