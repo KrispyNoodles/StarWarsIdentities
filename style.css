@@ -1,23 +1,45 @@
-body{
-    background-color: green;
+/* Import the font */
+@font-face {
+    font-family: "Star_Jedi"; 
+    src: url(media/fonts/sw.otf) format("opentype"); 
 }
 
-h1{
-    color:white;
+body {
+    background-color: rgb(171, 187, 194);
+}
+
+h1 {
+    color: black;
+    font-family: "Star_Jedi";
 }
 
 p{
     background-color: gray; color: brown;
+    font-family:"consolas",sans-serif;
 }
 
-p1{
+#p1{
     color: burlywood;
 }
 
-p2{
+#p2{
     color: blanchedalmond;
 }
 
-p3{
+#p3{
     color: grey;
+}
+
+.odd{
+    color: red;
+}
+
+.even{
+    color: blue;
+}
+
+/* address fonts */
+a{
+    color:black;
+    font-family:"consolas",sans-serif;
 }
