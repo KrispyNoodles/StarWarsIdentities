@@ -5,31 +5,38 @@
 }
 
 body {
-    background-color: rgb(171, 187, 194);
+    background-image:url(media/bg.jpeg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
 }
 
 h1 {
-    color: black;
+    color: white;
     font-family: "Star_Jedi";
     letter-spacing: 1.5px;
     line-height: 1.5;
+    font-size: 32px;
 }
 
 p{
     background-color: gray; color: brown;
-    font-family:"consolas",sans-serif;
+    font-family:"consolas", sans-serif;
+    padding: 5px;
 }
 
 #p1{
-    color: burlywood;
+    color: black;
+    border-style: dashed;
 }
 
 #p2{
-    color: blanchedalmond;
+    color: black;
 }
 
 #p3{
-    color: grey;
+    color: brown;
 }
 
 .odd{
